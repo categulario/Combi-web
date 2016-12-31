@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rutas de Combis| Xalapa</title> <!--VERSIÓN para iframe  -->
+
+          <link href="css/bootstrap.min.css" rel="stylesheet">
+          <link href="css/bootstrap.css" rel="stylesheet">
+          <link href="css/bootstrap-theme.css" rel="stylesheet">
+          <!-- Custom styles for this template -->
+      <!--    <link href="css/justified-nav.css" rel="stylesheet"> -->
+          <script src="./js/jquery.min.js"></script>
+          <script src="./js/bootstrap.min.js"></script>
+
+    <style>
+        html { height: 100%}
+        body { overflow:hidden; height: 100%; margin: 0; padding: 0}
+        #mapa_div { height: 100% }
+        header { background-color: rgba(0,102,102,0.8); width: 100%; position: fixed; z-index: 100}
+        #logo{padding-top: 1%; padding-bottom: 1.5%; padding-left: 3%}
+        #contenido{padding-top: 8%; padding-bottom: 3.5%}
+        li{
+        background-color: #eee;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        }
+        a{
+          padding-top: 1%;
+          padding-bottom: 1%;
+          margin-bottom: ;
+          font-weight: 600;;
+          color: #333333;
+          text-align: center;
+          background-color: #e5e5e5; /* Old browsers */
+          border-bottom: 1px solid #d5d5d5;
+        }
+    </style>
+  </head>
+
+  <body>
+
+    <header>
+      <div id="logo"><font color="white"><h1>Rutas de Combis en Xalapa</h1></font></div>
+    </header>
+
+    <div>
+      <!--   <h3 class="text-muted">Transporte público en Xalapa: COMBIS</h3> -->
+      <!--  <nav> -->
+        <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+        <!--  <ul class="nav nav-justified"> -->
+          <ul class="nav nav-justified">
+            <li class="active"><a href="ruta_inicio.html" target="mapFrame">Inicio</a></li>
+            <li><a href="rutas_todas.html" target="mapFrame">Todas las rutas</a></li>
+            <li><a href="ruta_azul.html" target="mapFrame">Ruta Azul</a></li>
+            <li><a href="ruta_amarilla.html" target="mapFrame">Ruta Amarilla</a></li>
+            <li><a href="ruta_cafe.html" target="mapFrame">Ruta Cafe</a></li>
+            <li><a href="informacion.html" target="mapFrame">Información</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+  <iframe height="100%" width="100%" src="ruta_inicio.html" name="mapFrame" id="contenido">
+  <p>Your browser does not support iframes.</p>
+  </iframe>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/app2.js"></script>
+  <!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1GD4EJwjnSn7-riQvEazy23GFC5KFTPs&callback=initMap"></script>
+  -->
+  </body>
+</html>

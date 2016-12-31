@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8"><title>Combis Xalapa</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="Rutas de Combis en Xalapa Veracruz &amp; Movilidad y Transporte publico" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/justified-nav.css" rel="stylesheet">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        html { height: 100% }
+        body { height: 100%; margin: 0; padding: 0.7% }
+        #mapa_div { height: 100% }
+    </style>
+
+  </head>
+  <body>
+    <div id="map" style="width:100%; height:85%">Error al cargar el mapa</div>
+  <!--    <div id="map" style="width:100%; height:85%"></div>
+    <div id="mapInfo">
+      <div id="mapInfoContainer"></div>
+      <div class="clearFix"></div>
+    </div> -->
+    <h3 class="text-muted">Transporte público en Xalapa: COMBIS</h3>
+    <div class="masthead">
+      <!--   <h3 class="text-muted">Transporte público en Xalapa: COMBIS</h3> -->
+        <nav>
+          <ul class="nav nav-justified" id="menuContainer">
+            <li class="active"><a href="#" onClick="marker.setMap(map);">Inicio</a></li>
+            <li><a href="#">Todas las rutas</a></li>
+            <li><a href="#" onClick="addRutaAzul();">Ruta Azul</a></li>
+            <li><a href="#">Ruta Amarilla</a></li>
+            <li><a href="#" onClick="addRutaCafe();">Ruta Cafe</a></li>
+            <li><a href="#">Ruta Roja</a></li>
+            <li><a href="#">Descarga la ruta</a></li>
+            <li><a href="#">Información</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/app3.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1GD4EJwjnSn7-riQvEazy23GFC5KFTPs&callback=initMap"></script>
+      <!--   <script type="text/javascript"
+            src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC1GD4EJwjnSn7-riQvEazy23GFC5KFTPs&sensor=TRUE">
+        </script> -->
+  </body>
+</html>

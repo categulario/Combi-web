@@ -1,0 +1,24 @@
+.footer {
+  padding-top: 2%;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+.nav-justified {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+.nav-justified > li > a {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: ;
+  font-weight: 600;;
+  color: #777;
+  text-align: center;
+  background-color: #e5e5e5; /* Old browsers */
+  border-bottom: 1px solid #d5d5d5;
+}
