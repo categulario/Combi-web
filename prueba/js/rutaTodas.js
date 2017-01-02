@@ -10,6 +10,7 @@ function initRutas() {
 	});
 
 	var infoWindow = new google.maps.InfoWindow({map: map});
+
 	// HTML5 geolocation.
 	  if (navigator.geolocation) {
 	    navigator.geolocation.getCurrentPosition(function(position) {
